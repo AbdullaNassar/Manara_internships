@@ -20,11 +20,11 @@
 #### 1) [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
   
   #### Difficulty 
-   ![String](https://user-images.githubusercontent.com/113154901/236111476-7e4379c4-0b05-4973-b316-eb181cd3db07.png)
+   ###Easy
 
   
   #### Realated Topic 
-  ![Array](https://user-images.githubusercontent.com/113154901/236110393-a80fd1ec-8ebe-49c0-9463-cd112d07e94f.png) ![String](https://user-images.githubusercontent.com/113154901/236110414-2d66c403-c2a9-4b59-a3da-6b73bbe09782.png)
+  ### Array - Strings
 
   ### Code
 
@@ -54,5 +54,69 @@ public:
 };
 ```
 #
+
+#### 2) [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)
+
+#### Difficulty 
+   ###Easy
+
+  
+  #### Realated Topic 
+    ### Math - Strings
+  
+ ### Code 
+ ```
+ class Solution {
+public:
+int cnt_days(string s)
+{
+    int y=stoi(s.substr(0,4));
+    int M=stoi(s.substr(5,2));
+    int d=stoi(s.substr(8));
+    int days=0;
+    for(int i=1971;i<y;i++)
+    {
+        days+=leap_years(i)?366:365;
+    }
+   for(int m = 1; m < M; ++m) days += days_in_month(m, y);
+    return days+d;
+}
+bool leap_years(int year)
+{
+    if( (year %4  == 0 && year % 100 != 0) || year % 400 == 0)return true;
+    return false;
+}
+ int days_in_month(int m, int year)
+        { 
+            if(m==1 || m==3 || m==5 || m==7 || m==8 || m==10 || m==12 ) return 31;
+            if(m==2) return leap_years(year) ? 29 : 28;
+            return 30;
+        }
+    int daysBetweenDates(string date1, string date2) {
+        return abs(cnt_days(date1)-cnt_days(date2));
+    }
+};
+```
+#
+
+#### 3) [Power of Two](https://leetcode.com/problems/power-of-two/)
+
+#### Difficulty 
+   ###Easy
+
+  
+  #### Realated Topic 
+   ### Math - Bit Manipulation - Recursion
+   
+ ### Code 
+ ```
+ Math
+Bit Manipulation
+Recursion
+```
+#
+
+
+
 
 
