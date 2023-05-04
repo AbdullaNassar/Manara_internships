@@ -20,7 +20,7 @@
 #### 1) [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
   
   #### Difficulty 
- ############  ![Easy](https://user-images.githubusercontent.com/113154901/236110166-af575a9c-c4c4-4050-9511-ec55a1044c99.png)
+   ![Easy](https://user-images.githubusercontent.com/113154901/236110166-af575a9c-c4c4-4050-9511-ec55a1044c99.png)
 
   
   #### Realated Topic 
@@ -29,6 +29,30 @@
   ### Code
 
 ![carbon](https://user-images.githubusercontent.com/113154901/236107576-79bae02d-7b21-465f-946d-e2b509cf0729.png)
+
+`class Solution {
+public:
+    bool arrayStringsAreEqual(vector<string>& word1, vector<string>& word2) {
+        string s={}, t={};
+        for(auto e:word1)
+        {
+            for(auto x:e)
+            {
+                s+=x;
+            }
+        }
+        for(auto e:word2)
+        {
+            for(auto x:e)
+            {
+                t+=x;
+            }
+        }
+        return s==t;
+
+        
+    }
+};`
 #
 
 
