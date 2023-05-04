@@ -20,7 +20,7 @@
 #### 1) [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
   
   #### Difficulty 
-  ![Easy](https://user-images.githubusercontent.com/113154901/236110166-af575a9c-c4c4-4050-9511-ec55a1044c99.png)
+ ############ ![Easy](https://user-images.githubusercontent.com/113154901/236110166-af575a9c-c4c4-4050-9511-ec55a1044c99.png)
 
   
   #### Realated Topic 
