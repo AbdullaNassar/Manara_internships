@@ -20,11 +20,11 @@
 #### 1) [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
   
   #### Difficulty 
-   ###Easy
+   #### Easy
 
   
   #### Realated Topic 
-  ### Array - Strings
+  #### Array - Strings
 
   ### Code
 
@@ -58,11 +58,11 @@ public:
 #### 2) [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)
 
 #### Difficulty 
-   ###Easy
+   #### Easy
 
   
   #### Realated Topic 
-    ### Math - Strings
+    #### Math - Strings
   
  ### Code 
  ```
@@ -102,17 +102,22 @@ bool leap_years(int year)
 #### 3) [Power of Two](https://leetcode.com/problems/power-of-two/)
 
 #### Difficulty 
-   ###Easy
+   #### Easy
 
   
   #### Realated Topic 
-   ### Math - Bit Manipulation - Recursion
+   #### Math - Bit Manipulation - Recursion
    
  ### Code 
  ```
- Math
-Bit Manipulation
-Recursion
+ class Solution {
+public:
+    bool isPowerOfTwo(int n) {
+        //O(1)
+        if(n<0)return false;
+        return (__builtin_popcount(n)==1?true:false);
+    }
+};
 ```
 #
 
