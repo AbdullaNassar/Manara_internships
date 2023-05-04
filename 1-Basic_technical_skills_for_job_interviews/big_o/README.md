@@ -10,13 +10,22 @@
 
 ## problems 
 
-1- [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
+# 1- [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
 
-2- [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)
+# 2- [Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)
 
-3- [Power of Two](https://leetcode.com/problems/power-of-two/)
+# 3- [Power of Two](https://leetcode.com/problems/power-of-two/)
+#
+
+# 1) [Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
+  
+  ##Difficulty : Easy
+  
+  ##Realated Topic : Array - String
+  
+  ##code
+
+![carbon](https://user-images.githubusercontent.com/113154901/236107576-79bae02d-7b21-465f-946d-e2b509cf0729.png)
 #
 
 
-
-![carbon](https://user-images.githubusercontent.com/113154901/236107576-79bae02d-7b21-465f-946d-e2b509cf0729.png)
