@@ -28,9 +28,8 @@
 
   ### Code
 
-![carbon](https://user-images.githubusercontent.com/113154901/236107576-79bae02d-7b21-465f-946d-e2b509cf0729.png)
-
-``class Solution {
+```
+class Solution {
 public:
     bool arrayStringsAreEqual(vector<string>& word1, vector<string>& word2) {
         string s={}, t={};
@@ -52,7 +51,8 @@ public:
 
         
     }
-};``
+};
+```
 #
 
 
